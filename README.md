@@ -12,8 +12,9 @@ In This Al-Ahly Fanclub Website we will allow Users to :
 *   Log-in using ( email and password ).
 *   See the news of Al-Ahly club.
 *   See the standings of Egyptian league.
-*   contact us if there is any problem.
-*   see the information of the players.
+*   Contact us if there is any problem.
+*   See the information of the players.
+*   Watch the last song of Al-Ahly club
 
 
 <h2>💻 Built with</h2>
