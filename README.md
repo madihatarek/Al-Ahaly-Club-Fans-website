@@ -1,4 +1,4 @@
-<h1  id="title">Al-Ahly Fanclub website</h1>
+<h1  id="title">Al-Ahly Fanclub Website</h1>
 
 <p id="description">see information about Al-Ahly club and players.</p>
 
@@ -6,7 +6,7 @@
   
 <h2>🧐  About The Project : </h2>
 
-Here're some of the project's best features:
+In This Al-Ahly Fanclub Website we will allow Users to :
 
 *   Sign-up using (name phone number and email ).
 *   Log-in using ( email and password ).
