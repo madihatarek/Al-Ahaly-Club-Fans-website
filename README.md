@@ -23,3 +23,10 @@ In This Al-Ahly Fanclub Website we will allow Users to :
 *   HTML
 *   CSS
 *   Javascript
+
+
+
+
+<h2>🍰 Contribution Guidelines:</h2>
+
+Made by Madiha Tarek & Yara Mohamed
