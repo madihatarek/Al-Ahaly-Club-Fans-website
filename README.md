@@ -27,6 +27,6 @@ In This Al-Ahly Fanclub Website we will allow Users to :
 
 
 
-<h2>🍰 Contribution Guidelines:</h2>
+<h2>🍰 Contributors:</h2>
 
 Made by Madiha Tarek & Yara Mohamed
