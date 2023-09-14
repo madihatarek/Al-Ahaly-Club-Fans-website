@@ -1,6 +1,6 @@
 <h1  id="title">Al-Ahly Fanclub Website</h1>
 
-<p id="description">see information about Al-Ahly club and players.</p>
+<p id="description">See information about Al-Ahly club and players.</p>
 
   
   
