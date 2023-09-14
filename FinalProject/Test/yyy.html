@@ -1,0 +1,174 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+<script src="vue.js"></script>
+    </head>
+<body>
+    <div id="ex1">
+        <h1>{{message}}</h1>
+    </div>
+<script>
+    new Vue({
+        el:'#ex1',
+        data:{
+            message:'hello'
+        }
+    })
+</script>
+</body>
+    </html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+<script src="vue.js"></script>
+    </head>
+<body>
+   <div id="ex1">
+       <h1 style="color: red;">Student Data</h1>
+       <h3>student first name:{{f_name}}</h3>
+       <h3>student last name:{{l_name}}</h3>
+       <h3>student age:{{age}}</h3>
+
+   </div>
+<script>
+    new Vue({
+        el:'#ex1',
+        data:{
+            f_name:'Ahmed',
+            l_name:'Nader',
+            age:22
+        }
+    })
+</script>
+</body>
+    </html> -->
+
+<!-- <html>
+        <head>
+            <script src="vue.js"></script>
+        </head>
+        <body>
+            <div id="ex1">
+<h1 style="color: red;">Student data</h1>
+<h3>student first name: {{f_name}}</h3>
+<h3>student last name: {{l_name}}</h3>
+<h3>student age: {{age}}</h3>
+<h3>student subject: {{arr}}</h3>
+<h3>student second subject: {{arr[1]}}</h3>
+<h3>student subject: {{first()}}</h3>
+
+            </div>
+            <script>
+                new Vue({
+                    el:'#ex1',
+                    data:{
+                        f_name:'Ahmed',
+                        l_name:'Nader',
+                        age:18,
+                        arr:['advanced SWE','data base','graphics','maths1','maths2']
+                    },
+                    methods: {
+                    first(){
+                        return 'first'
+                    }
+                    },
+                })
+            </script>
+        </body>
+    </html> -->
+
+<!-- <html>
+    <head>
+<script src="vue.js"></script>
+    </head>
+<body>
+    <div id="ex1">
+    <h1 style="color: red;">Student data</h1>
+<h3>Student first name: {{f_name}}</h3>
+<h3>Student last name: {{l_name}}</h3>
+<h3>Student age: {{fage}}</h3>
+<h3>Student subjects: {{arr}}</h3>
+<h3>Student second subject: {{arr[1]}}</h3>
+<h3 v-if="results()>50">Student successful</h3>
+<h3 v-else>Student failed</h3>
+</div>
+    <script>
+        new Vue({
+            el:'#ex1',
+            data:{
+                f_name:'Ahmed',
+                l_name:'Nader',
+                age:18,
+                arr:['advanced SWE','data base','graphics','maths1','maths2'],
+                marks:40
+            },
+            methods:{
+                results(){
+                    return (this.marks/100)*100
+                }
+            }
+        })
+    </script>
+</body>
+    </html> -->
+<html>
+
+<head>
+    <script src="vue.js"></script>
+</head>
+
+<body>
+    <div id="ex1">
+        <h3>TextBox</h3>
+        <input type="text" v-model="name" placeholder="enter student name">
+        <h3>Your name is: {{name}}</h3>
+        <hr>
+        <h3>Checkbox</h3>
+        <input type="checkbox" v-model="checked">{{checked}}
+        <hr>
+        <h3>Radio</h3>
+        <input type="radio" id="CS" value="CS" v-model="picked">
+        <input type="radio" id="IT" value="IT" v-model="picked">
+        <input type="radio" id="IS" value="IS" v-model="picked">
+        <input type="radio" id="OR" value="OR" v-model="picked">
+        <h3>Radio element clicked: {{picked}}</h3>
+        <hr>
+        <h3>Select</h3>
+        <select v-model="language">
+            <option disabled value="">please select one</option>
+            <option >Java</option>
+            <option>PHP</option>
+            <option>C</option>
+            <option>C++</option>
+            <option>JavaScript</option>
+
+        </select>
+        <h3>Your selected language is :{{language}}</h3>
+        <hr>
+        <h3>Textarea</h3>
+        <textarea v-model="textmessage" placeholder="Comments..."></textarea>        <hr>
+        <center>
+            <button style="background-color: red;" v-on:click="show()">Student Data</button>
+        </center>
+    </div>
+    <script>
+        new Vue({
+            el: '#ex1',
+            data: {
+                name: '',
+                picked: '',
+                checked: false,
+                language: 'Java',
+                textmessage: ''
+            },
+            methods: {
+                show(){
+                    alert('the student name is '+this.name+' and his language is '+this.language)
+                }
+            },
+        })
+    </script>
+</body>
+
+</html>

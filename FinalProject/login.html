@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./CSS/login.css">
+</head>
+
+<body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src='./images/ahly_vedio.mp4' type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="back">
+        <div class="content">
+
+            <div class="centered">
+                <nav>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="./sign.html">Signup</a></li>
+                            <li><a href="./login.html" class="active">Login</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <br><br><br>
+                <br> 
+
+                <form action="./home.html">
+                    <div class="container">
+
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" id="psw" minlength="10"
+                            maxlength="32" required>
+
+
+                        <button type="submit" class="registerbtn" href="./home.html">LoginIn</button>
+                    </div>
+
+                    <div class="container signin">
+                        <p>Don't have an account? <a href="./sign.html">Sign Up</a>.</p>
+                    </div>
+                </form>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+select,
+textarea, input[type="text"],input[type="email"]{
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+textarea:focus{
+   background-color: #f00;
+   color: #fff;
+}
+
+button[type=submit] {
+    background-color: #f00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button[type=submit]:hover {
+    opacity: .8;
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+
+}
+
+.column label,
+h2 {
+    color: #f00;
+    font-weight: bold
+}
+.icons {
+    flex-direction: row; 
+   
+}
+.icons img{
+    width: 50px;
+    height: 30px; 
+    margin-right: 10px;
+}
