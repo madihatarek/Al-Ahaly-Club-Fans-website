@@ -1,6 +1,3 @@
-# Al-Ahaly-Club-Fans-website
-
-# Team Work:     - Madiha Tarek      - Yara Mohamed
 <h1  id="title">Al-Ahly Fanclub website</h1>
 
 <p id="description">see information about Al-Ahly club and players.</p>
